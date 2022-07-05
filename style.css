@@ -42,6 +42,11 @@ img {
   height: 100vh;
 }
 
+.password-validation {
+  font-weight: 400;
+  color: grey;
+}
+
 .submit-btn {
   background-color: rgb(193, 191, 191);
   padding: 12px 32px;
