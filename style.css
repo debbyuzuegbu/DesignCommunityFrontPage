@@ -59,3 +59,21 @@ img {
   border: none;
   color: white;
 }
+
+.password-check {
+  display: flex;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: grey;
+  margin: auto 0;
+}
+
+.validation-text {
+  margin: auto 0;
+  margin-left: 8px;
+}

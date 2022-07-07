@@ -21,18 +21,32 @@
                 <input type="password" id="password" name="password"><br><br>
             </form> 
                 <div class="password-validation">
-                    <p><input type="checkbox">Use 8 or more characters</p>
-                    <p><input type="checkbox">One uppercase character</p>
-                    <p><input type="checkbox">One lowercase character</p>
-                    <p><input type="checkbox">One special character</p>
-                    <p><input type="checkbox">One number</p><br><br>
+                       <div class="password-check">
+                        <div class="circle"></div>
+                        <p class="validation-text">Use 8 or more characters</p>
+                       </div> 
+                       <div class="password-check">
+                        <div class="circle"></div>
+                        <p class="validation-text">One uppercase character</p>
+                       </div>
+                       <div class="password-check">
+                        <div class="circle"></div>
+                        <p class="validation-text">One lowercase character</p>
+                       </div>
+                       <div class="password-check">
+                        <div class="circle"></div>
+                        <p class="validation-text">One special character</p>
+                       </div>
+                       <div class="password-check">
+                        <div class="circle"></div>
+                        <p class="validation-text">One number</p>
+                       </div>
                 </div>
 
             <p><input type="checkbox">I want to receive emails about the product, feature updates, events, and marketing promotions</p><br><br>
             <p>By creating an account, you agree to the <a href="">Terms of use</a> and <a href=""> Privacy Policy.</a></p>
-            <form>
-                <input class="submit-btn" type="submit" value="Create an account">
-            </form>
+            
+            <button onclick = "accountCreated()" class="submit-btn" type="submit">Create an account</button> 
             
             <p>Already have an account? <a href=""> Log In</a></p>
         </div>
